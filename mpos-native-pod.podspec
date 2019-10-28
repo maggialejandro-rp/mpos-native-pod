@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source         = { :git => 'https://github.com/maggialejandro-rp/mpos-native-pod', :tag => "v#{s.version}" }
   s.requires_arc   = true
   s.platform       = :ios, '9.0'
-  spec.source_files = 'src/*.{h,m}'
+  s.source_files = 'src/*.{h,m}'
 
   s.dependency 'React'
 end
